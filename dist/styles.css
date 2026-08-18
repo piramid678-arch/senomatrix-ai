@@ -2181,3 +2181,319 @@ body {
     padding: 0.8rem 1rem;
   }
 }
+
+
+/* ========================================================================= */
+/* Comprehensive Mobile & Tablet Responsive Polish                           */
+/* ========================================================================= */
+@media (max-width: 768px) {
+  /* Navigation Bar */
+  .top-nav {
+    padding: 0.6rem 1rem;
+  }
+  .nav-container {
+    gap: 0.8rem;
+  }
+  .brand-title {
+    font-size: 1.15rem;
+  }
+  .brand-badge {
+    font-size: 0.62rem;
+    padding: 0.1rem 0.35rem;
+  }
+  .nav-actions {
+    gap: 0.4rem;
+  }
+  .lang-dropdown {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.78rem;
+  }
+  .btn-guide-sm {
+    display: none; /* Accessible in modal footer */
+  }
+  .btn-primary-sm {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.76rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 3rem 1rem 2.5rem;
+  }
+  .hero-badge {
+    font-size: 0.74rem;
+    padding: 0.3rem 0.8rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.3;
+  }
+  .hero-title {
+    font-size: 2.1rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+  }
+  .hero-desc {
+    font-size: 0.94rem;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+  }
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+    margin-bottom: 2rem;
+  }
+  .hero-cta-group .btn-lg {
+    width: 100%;
+    padding: 0.95rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  /* Trust Metrics Bar on Mobile */
+  .trust-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0.5rem;
+    padding: 1.2rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .trust-item {
+    padding: 0;
+  }
+  .trust-val {
+    font-size: 1.25rem;
+  }
+  .trust-label {
+    font-size: 0.72rem;
+    text-align: center;
+  }
+  .trust-divider {
+    display: none;
+  }
+
+  /* Hero Security Callout Banner */
+  .hero-security-callout {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.9rem 1.1rem;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .sec-callout-text {
+    font-size: 0.82rem;
+    line-height: 1.5;
+  }
+
+  /* Common Sections */
+  .section-container {
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+  .section-heading {
+    font-size: 1.65rem;
+    line-height: 1.3;
+  }
+  .section-subtext {
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+
+  /* How It Works Steps */
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .step-card {
+    padding: 1.4rem;
+  }
+
+  /* Local AI Security Section */
+  .local-ai-security-banner {
+    padding: 1.8rem 1.2rem;
+    border-radius: 16px;
+  }
+  .sec-banner-title {
+    font-size: 1.45rem;
+  }
+  .sec-banner-desc {
+    font-size: 0.88rem;
+  }
+  .sec-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .sec-card {
+    padding: 1.3rem;
+  }
+  .sec-action-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.2rem;
+    gap: 1rem;
+  }
+  .sec-action-banner .btn-primary {
+    width: 100%;
+  }
+
+  /* 3D Studio Section on Mobile */
+  .studio-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .studio-sidebar {
+    order: 2;
+  }
+  .studio-viewport {
+    order: 1;
+  }
+  .canvas-body {
+    height: 280px !important;
+  }
+  .canvas-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.8rem 1rem;
+  }
+  .canvas-tools {
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.3rem;
+  }
+  .tool-btn {
+    white-space: nowrap;
+    padding: 0.35rem 0.6rem;
+    font-size: 0.74rem;
+  }
+  .studio-action-bar {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .studio-action-bar .btn-primary {
+    width: 100%;
+  }
+  .target-quick-pills {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.4rem;
+  }
+  .pill-btn {
+    white-space: nowrap;
+  }
+
+  /* 8 AI Swarm Section on Mobile */
+  .server-telemetry-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+  .tele-divider {
+    display: none;
+  }
+  .swarm-filter-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 0.5rem;
+  }
+  .swarm-filter-btn {
+    white-space: nowrap;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.76rem;
+  }
+  .swarm-agents-grid {
+    grid-template-columns: 1fr;
+  }
+  .cloud-terminal-container {
+    border-radius: 12px;
+  }
+  .terminal-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .terminal-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .terminal-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  /* Lead Magnet & Pricing */
+  .lead-magnet-banner {
+    padding: 1.8rem 1.2rem;
+  }
+  .lm-headline {
+    font-size: 1.4rem;
+  }
+  .lm-button-row {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+  .lm-button-row button {
+    width: 100%;
+  }
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+  .plan-card {
+    padding: 1.8rem 1.4rem;
+  }
+
+  /* Modals on Mobile */
+  .modal-window {
+    width: 94% !important;
+    max-height: 88vh !important;
+    padding: 1rem !important;
+    margin: 1rem auto !important;
+  }
+  .modal-header {
+    padding: 0.8rem 1rem !important;
+  }
+  .modal-title {
+    font-size: 1rem !important;
+  }
+  .modal-body {
+    padding: 1rem !important;
+  }
+  .modal-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+  .tab-btn {
+    white-space: nowrap;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.78rem;
+  }
+  .modal-footer {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .modal-footer button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.85rem;
+  }
+  .section-heading {
+    font-size: 1.45rem;
+  }
+  .trust-bar {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .server-telemetry-bar {
+    grid-template-columns: 1fr;
+  }
+}
